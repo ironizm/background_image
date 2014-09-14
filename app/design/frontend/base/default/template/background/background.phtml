@@ -1,0 +1,14 @@
+<?php	
+	$_backgroundCollection=$this->getBackgroundCollection()->getData();
+	$background=false;
+	$count=count($_backgroundCollection);
+	if($count>0){
+		$background=true;
+	} 
+?>
+
+<?php if($background===true):?>
+	<style type="text/css">
+		body{background: url(<?php echo $this->getImageUrl($_backgroundCollection[0]['filename']); ?>) fixed no-repeat top center !important;}
+    </style>
+<?php endif;?>

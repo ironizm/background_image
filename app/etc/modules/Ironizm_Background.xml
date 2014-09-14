@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ironizm_Background>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Ironizm_Background>
+    </modules>
+</config> 

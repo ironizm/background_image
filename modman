@@ -1,0 +1,5 @@
+app/etc/modules/Ironizm_Background.xml						app/etc/modules/Ironizm_Background.xml
+app/code/community/Ironizm/Background/						app/code/community/Ironizm/Background/
+app/design/adminhtml/default/default/layout/background.xml 	app/design/adminhtml/default/default/layout/background.xml
+app/design/frontend/base/default/layout/background.xml 		app/design/frontend/base/default/layout/background.xml
+app/design/frontend/base/default/template/background/ 		app/design/frontend/base/default/template/background/
